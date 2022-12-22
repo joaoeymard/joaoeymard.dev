@@ -1,0 +1,6 @@
+.menu-options .list-group-item {
+  border-radius: var(--border-radius);
+  background-color: var(--color-secondary);
+  color: white;
+  text-align: center;
+}

@@ -1,0 +1,17 @@
+header {
+  background-color: var(--color-secondary);
+  border-bottom-left-radius: var(--border-radius-large);
+  border-bottom-right-radius: var(--border-radius-large);
+}
+
+header .img-brand img {
+  height: 40px;
+}
+header .img-brand span {
+  font-size: 11px;
+}
+header .img-person img {
+  width: 75px;
+  height: 75px;
+  border-radius: var(--border-radius);
+}
