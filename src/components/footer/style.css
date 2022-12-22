@@ -1,0 +1,10 @@
+footer .list-group-item {
+  /* border-radius: var(--border-radius); */
+  background-color: transparent;
+  color: white;
+  text-align: center;
+}
+
+footer .list-group-item img {
+  fill: white;
+}
