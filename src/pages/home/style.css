@@ -1,9 +1,6 @@
-.page-container {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
-
-.page-content {
-  flex: 1 0 auto;
+aside .list-group-item {
+  border-radius: var(--border-radius);
+  background-color: var(--color-secondary);
+  color: white;
+  text-align: center;
 }
