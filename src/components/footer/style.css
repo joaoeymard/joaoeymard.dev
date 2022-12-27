@@ -1,6 +1,8 @@
 footer .list-group-item {
-  /* border-radius: var(--border-radius); */
   background-color: transparent;
+  border: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 0 !important;
   color: white;
   text-align: center;
 }
