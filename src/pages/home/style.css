@@ -1,5 +1,5 @@
 aside .list-group-item {
-  border-radius: var(--border-radius);
+  border-radius: var(--border-radius) !important;
   background-color: var(--color-secondary);
   color: white;
   text-align: center;

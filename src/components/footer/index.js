@@ -1,6 +1,9 @@
+import { Link } from "react-router-dom";
+
 import "./style.css";
 
-import mailDotRu from "../../assets/icons/mail-dot-ru.svg";
+import menu from "../../assets/icons/menu.svg";
+import mail from "../../assets/icons/mail-dot-ru.svg";
 import linkedin from "../../assets/icons/linkedin.svg";
 import instagram from "../../assets/icons/instagram.svg";
 import whatsapp from "../../assets/icons/whatsapp.svg";
@@ -9,8 +12,17 @@ import whatsapp from "../../assets/icons/whatsapp.svg";
 
 function Footer() {
   return (
-    <footer className="container pt-0 px-3">
+    <footer className="container pt-0 px-3 glass">
       <div className="list-group flex-row">
+        <Link to="/" className="list-group-item flex-fill w-25 mb-0 me-1 p-3">
+          <img
+            align="center"
+            src={menu}
+            alt="joaoeymard"
+            height="20"
+            width="20"
+          />
+        </Link>
         <a
           href="mailto:my@joaoeymard.dev"
           target="blank"
@@ -18,7 +30,7 @@ function Footer() {
         >
           <img
             align="center"
-            src={mailDotRu}
+            src={mail}
             alt="joaoeymard"
             height="20"
             width="20"

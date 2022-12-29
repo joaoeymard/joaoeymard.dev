@@ -4,7 +4,7 @@
 }
 
 :root {
-  --color-primary: #172120;
+  --color-primary: rgba(23, 33, 32, 1);
   --color-secondary: rgba(255, 255, 255, 0.05);
 
   --border-radius: 12px;
@@ -24,4 +24,13 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.glass {
+  background: rgba( 74, 74, 74, 0.35 );
+  box-shadow: 0 8px 32px 0 rgba(23, 33, 32, 0.37);
+  backdrop-filter: blur( 6.5px );
+  -webkit-backdrop-filter: blur( 6.5px );
+  border-radius: var(--border-radius);
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
