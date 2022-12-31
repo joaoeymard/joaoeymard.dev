@@ -1,4 +1,4 @@
-aside .list-group-item {
+.menu-items .list-group-item {
   border-radius: var(--border-radius) !important;
   background-color: var(--color-secondary);
   color: white;

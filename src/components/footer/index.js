@@ -12,8 +12,8 @@ import whatsapp from "../../assets/icons/whatsapp.svg";
 
 function Footer() {
   return (
-    <footer className="container pt-0 px-3 glass">
-      <div className="list-group flex-row">
+    <footer className="w-100 pt-0 px-3 glass">
+      <div className="container list-group flex-row">
         <Link to="/" className="list-group-item flex-fill w-25 mb-0 me-1 p-3">
           <img
             align="center"
@@ -50,8 +50,8 @@ function Footer() {
           />
         </a>
         {/* <a href="https://fb.com/joaoeymard" target="blank" className="list-group-item flex-fill w-25 mb-0 mx-1 p-3">
-          <img align="center" src={facebook} alt="joaoeymard" height="20" width="20" />
-        </a> */}
+            <img align="center" src={facebook} alt="joaoeymard" height="20" width="20" />
+          </a> */}
         <a
           href="https://instagram.com/joaoeymard"
           target="blank"
@@ -66,8 +66,8 @@ function Footer() {
           />
         </a>
         {/* <a href="https://t.me/joaoeymard" target="blank" className="list-group-item flex-fill w-25 mb-0 mx-1 p-3">
-          <img align="center" src={telegram} alt="joaoeymard" height="20" width="20" />
-        </a> */}
+            <img align="center" src={telegram} alt="joaoeymard" height="20" width="20" />
+          </a> */}
         <a
           href="https://wa.me/5588999114867"
           target="blank"
