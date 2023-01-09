@@ -1,12 +1,10 @@
-/* .page-container {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
+.container {
+  max-width: 650px;
 }
 
 .page-content {
-  flex: 1 0 auto;
-} */
+  margin-bottom: 56px;
+} 
 
 footer {
   position: fixed;

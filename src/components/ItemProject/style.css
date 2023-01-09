@@ -1,0 +1,8 @@
+.card-item-project {
+  background-color: var(--color-secondary) !important;
+}
+
+.card-item-project .img-project {
+  width: 56px;
+  height: 56px;
+}

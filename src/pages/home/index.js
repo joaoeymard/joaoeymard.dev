@@ -3,8 +3,8 @@ import "./style.css";
 
 export default function Home() {
   return (
-    <aside className="container mt-4 px-3">
-      <div className="list-group menu-items">
+    <aside className="container px-3">
+      <div className="list-group menu-items mt-4 pb-4">
         <Link to="/aboutme" className="list-group-item mb-3 p-3">
           Sobre Mim
         </Link>

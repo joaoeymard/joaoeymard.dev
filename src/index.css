@@ -5,7 +5,7 @@
 
 :root {
   --color-primary: rgba(23, 33, 32, 1);
-  --color-secondary: rgba(255, 255, 255, 0.05);
+  --color-secondary: rgba(35, 44, 43, 1);
 
   --border-radius: 12px;
   --border-radius-large: 24px;
@@ -27,10 +27,10 @@ code {
 }
 
 .glass {
-  background: rgba( 74, 74, 74, 0.35 );
+  background: rgba(35, 44, 43, 0.65);
   box-shadow: 0 8px 32px 0 rgba(23, 33, 32, 0.37);
-  backdrop-filter: blur( 6.5px );
-  -webkit-backdrop-filter: blur( 6.5px );
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
   border-radius: var(--border-radius);
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
