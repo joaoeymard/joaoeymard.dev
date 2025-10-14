@@ -11,8 +11,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -25,19 +23,3 @@ jobs:
 
       - name: Build application
         run: npm run build
-
-      - name: Commit dist folder
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          if [ ! -d dist ]; then
-            echo "dist directory not found; skipping commit."
-            exit 0
-          fi
-          if [ -z "$(git status --porcelain dist)" ]; then
-            echo "No changes to commit."
-            exit 0
-          fi
-          git add dist
-          git commit -m "chore: update dist [skip ci]"
-          git push
